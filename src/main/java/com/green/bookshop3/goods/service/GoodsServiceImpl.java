@@ -1,17 +1,18 @@
-package com.bookshop01.goods.service;
+package com.green.bookshop3.goods.service;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import com.green.bookshop3.goods.dao.GoodsDAO;
+import com.green.bookshop3.goods.vo.GoodsVO;
+import com.green.bookshop3.goods.vo.ImageFileVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.bookshop01.goods.dao.GoodsDAO;
-import com.bookshop01.goods.vo.GoodsVO;
-import com.bookshop01.goods.vo.ImageFileVO;
+
 
 @Service("goodsService")
 @Transactional(propagation=Propagation.REQUIRED)
@@ -26,7 +27,7 @@ public class GoodsServiceImpl implements GoodsService{
 		goodsMap.put("bestseller",goodsList);
 		goodsList=goodsDAO.selectGoodsList("newbook");
 		goodsMap.put("newbook",goodsList);
-		
+
 		goodsList=goodsDAO.selectGoodsList("steadyseller");
 		goodsMap.put("steadyseller",goodsList);
 		return goodsMap;

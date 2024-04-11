@@ -1,15 +1,16 @@
-package com.bookshop01.goods.dao;
+package com.green.bookshop3.goods.dao;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import com.green.bookshop3.goods.vo.GoodsVO;
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.stereotype.Repository;
 
-import com.bookshop01.goods.vo.GoodsVO;
-import com.bookshop01.goods.vo.ImageFileVO;
+import com.green.bookshop3.goods.vo.GoodsVO;
+import com.green.bookshop3.goods.vo.ImageFileVO;
 
 @Repository("goodsDAO")
 public class GoodsDAOImpl  implements GoodsDAO{

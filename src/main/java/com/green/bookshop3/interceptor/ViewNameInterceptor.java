@@ -1,4 +1,4 @@
-package com.bookshop01.common.interceptor;
+package com.green.bookshop3.interceptor;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

@@ -1,4 +1,4 @@
-package com.bookshop01.member.dao;
+package com.green.bookshop3.member.dao;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -7,7 +7,7 @@ import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.stereotype.Repository;
-import com.bookshop01.member.vo.MemberVO;
+import com.green.bookshop3.member.vo.MemberVO;
 
 @Repository("memberDAO")
 public class MemberDAOImpl  implements MemberDAO{

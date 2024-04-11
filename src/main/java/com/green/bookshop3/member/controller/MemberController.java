@@ -1,16 +1,17 @@
-package com.bookshop01.member.controller;
+package com.green.bookshop3.member.controller;
 
 import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.green.bookshop3.member.vo.MemberVO;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.bookshop01.member.vo.MemberVO;
+import com.green.bookshop3.member.vo.MemberVO;
 
 public interface MemberController {
 	public ModelAndView login(@RequestParam Map<String, String> loginMap,HttpServletRequest request, HttpServletResponse response) throws Exception;

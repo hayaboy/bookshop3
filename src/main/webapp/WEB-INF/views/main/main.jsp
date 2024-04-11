@@ -8,6 +8,9 @@
   request.setCharacterEncoding("UTF-8");
 %>  
 
+
+<%--여기는 메인--%>
+
 <div id="ad_main_banner">
 	<ul class="bjqs">	 	
 	  <li><img width="775" height="145" src="${contextPath}/resources/image/main_banner01.jpg"></li>
@@ -15,16 +18,30 @@
 		<li><img width="775" height="145" src="${contextPath}/resources/image/main_banner03.jpg"></li> 
 	</ul>
 </div>
+
+
+<%--${goodsMap}--%>
+
 <div class="main_book">
    <c:set  var="goods_count" value="0" />
 	<h3>베스트셀러</h3>
+
+<%--	<c:forEach var="item" items="${goodsMap.bestseller }">--%>
+<%--		<c:set  var="goods_count" value="${goods_count+1 }" />--%>
+<%--		<div class="book">--%>
+<%--			${goods_count}${item.goods_title}--%>
+<%--			&lt;%&ndash;<img width="121" height="154" src="${contextPath}/resources/image/cat1.jpg">&ndash;%&gt;--%>
+<%--			<img width="121" height="154" src="${contextPath}/thumbnails.do?goods_id=${item.goods_id}&fileName=${item.goods_fileName}">--%>
+<%--		</div>--%>
+<%--	</c:forEach>--%>
+
 	<c:forEach var="item" items="${goodsMap.bestseller }">
 	   <c:set  var="goods_count" value="${goods_count+1 }" />
 		<div class="book">
 			<a href="${contextPath}/goods/goodsDetail.do?goods_id=${item.goods_id }">
-			<img class="link"  src="${contextPath}/resources/image/1px.gif"> 
-			</a> 
-				<img width="121" height="154" 
+			<img class="link"  src="${contextPath}/resources/image/1px.gif">
+			</a>
+				<img width="121" height="154"
 				     src="${contextPath}/thumbnails.do?goods_id=${item.goods_id}&fileName=${item.goods_fileName}">
 
 			<div class="title">${item.goods_title }</div>
@@ -40,6 +57,9 @@
      </c:if>
   </c:forEach>
 </div>
+
+
+
 <div class="clear"></div>
 <div id="ad_sub_banner">
 	<img width="770" height="117" src="${contextPath}/resources/image/sub_banner01.jpg">
@@ -51,9 +71,9 @@
 	   <c:set  var="goods_count" value="${goods_count+1 }" />
 		<div class="book">
 		  <a href="${contextPath}/goods/goodsDetail.do?goods_id=${item.goods_id }">
-	       <img class="link"  src="${contextPath}/resources/image/1px.gif"> 
+	       <img class="link"  src="${contextPath}/resources/image/1px.gif">
 	      </a>
-		 <img width="121" height="154" 
+		 <img width="121" height="154"
 				src="${contextPath}/thumbnails.do?goods_id=${item.goods_id}&fileName=${item.goods_fileName}">
 		<div class="title">${item.goods_title }</div>
 		<div class="price">
@@ -82,9 +102,9 @@
 	   <c:set  var="goods_count" value="${goods_count+1 }" />
 		<div class="book">
 		  <a href="${contextPath}/goods/goodsDetail.do?goods_id=${item.goods_id }">
-	       <img class="link"  src="${contextPath}/resources/image/1px.gif"> 
+	       <img class="link"  src="${contextPath}/resources/image/1px.gif">
 	      </a>
-		 <img width="121" height="154" 
+		 <img width="121" height="154"
 				src="${contextPath}/thumbnails.do?goods_id=${item.goods_id}&fileName=${item.goods_fileName}">
 		<div class="title">${item.goods_title }</div>
 		<div class="price">
@@ -100,5 +120,5 @@
 	</c:forEach>
 </div>
 
-   
+
    

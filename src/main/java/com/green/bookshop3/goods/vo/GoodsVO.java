@@ -1,4 +1,4 @@
-package com.bookshop01.goods.vo;
+package com.green.bookshop3.goods.vo;
 
 import java.sql.Date;
 import java.util.ArrayList;
@@ -250,6 +250,10 @@ public class GoodsVO {
 	public void setGoods_credate(Date goods_credate) {
 		this.goods_credate = goods_credate;
 	}
-	
 
+
+	@Override
+	public String toString() {
+		return goods_title;
+	}
 }

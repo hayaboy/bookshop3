@@ -1,4 +1,4 @@
-package com.bookshop01.goods.vo;
+package com.green.bookshop3.goods.vo;
 
 public class ImageFileVO {
 	private int goods_id;
@@ -67,6 +67,14 @@ public class ImageFileVO {
 	}
 
 
-	
-
+	@Override
+	public String toString() {
+		return "ImageFileVO{" +
+				"goods_id=" + goods_id +
+				", image_id=" + image_id +
+				", fileName='" + fileName + '\'' +
+				", fileType='" + fileType + '\'' +
+				", reg_id='" + reg_id + '\'' +
+				'}';
+	}
 }

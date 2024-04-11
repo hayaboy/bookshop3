@@ -1,10 +1,10 @@
-package com.bookshop01.goods.service;
+package com.green.bookshop3.goods.service;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import com.bookshop01.goods.vo.GoodsVO;
+import com.green.bookshop3.goods.vo.GoodsVO;
 
 public interface GoodsService {
 	

@@ -1,8 +1,16 @@
-package com.bookshop01.member.service;
+package com.green.bookshop3.member.service;
 
 import java.util.Map;
 
-import com.bookshop01.member.vo.MemberVO;
+import com.green.bookshop3.member.vo.MemberVO;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
 
 public interface MemberService {
 	public MemberVO login(Map  loginMap) throws Exception;

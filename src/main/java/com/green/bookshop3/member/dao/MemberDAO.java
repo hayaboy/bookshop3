@@ -1,10 +1,11 @@
-package com.bookshop01.member.dao;
+package com.green.bookshop3.member.dao;
 
 import java.util.Map;
 
+import com.green.bookshop3.member.vo.MemberVO;
 import org.springframework.dao.DataAccessException;
 
-import com.bookshop01.member.vo.MemberVO;
+import com.green.bookshop3.member.vo.MemberVO;
 
 public interface MemberDAO {
 	public MemberVO login(Map loginMap) throws DataAccessException;
