@@ -82,6 +82,9 @@ public class MemberControllerImpl extends BaseController implements MemberContro
 									HttpServletRequest request, HttpServletResponse response) throws Exception {
 		response.setContentType("text/html; charset=UTF-8");
 		request.setCharacterEncoding("utf-8");
+
+		System.out.println(_memberVO.toString());
+
 		String message = null;
 		ResponseEntity resEntity = null;
 		HttpHeaders responseHeaders = new HttpHeaders();

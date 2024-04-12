@@ -8,8 +8,8 @@
         <typeAlias type="com.green.bookshop3.goods.vo.ImageFileVO" alias="imageFileVO" />
         <typeAlias type="com.green.bookshop3.member.vo.MemberVO" alias="memberVO" />
         <typeAlias type="com.green.bookshop3.cart.vo.CartVO" alias="cartVO" />
-        <!--<typeAlias type="com.green.bookshop3.order.vo.OrderVO" alias="orderVO" />
-        <typeAlias type="com.green.bookshop3.mypage.vo.MyPageVO" alias="mypageVO" />-->
+        <typeAlias type="com.green.bookshop3.order.vo.OrderVO" alias="orderVO" />
+        <typeAlias type="com.green.bookshop3.mypage.vo.MyPageVO" alias="mypageVO" />
 
     </typeAliases>
 </configuration>

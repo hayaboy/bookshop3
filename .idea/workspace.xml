@@ -9,49 +9,70 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="032eb6aa-d582-4cf5-ab1e-cdef3ec018ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/cart/controller/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/cart/controller/CartControllerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/cart/dao/CartDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/cart/dao/CartDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/cart/service/CartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/cart/service/CartServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/cart/vo/CartVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/common/file/FileDownloadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/goods/controller/GoodsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/goods/controller/GoodsControllerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mappers/cart.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/tiles/tiles_good.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/tiles/tiles_member.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/goods/goodsDetail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/member/loginForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/member/memberForm.jsp" afterDir="false" />
+    <list default="true" id="032eb6aa-d582-4cf5-ab1e-cdef3ec018ae" name="Changes" comment="4_11">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/admin/goods/controller/AdminGoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/admin/goods/controller/AdminGoodsControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/admin/goods/dao/AdminGoodsDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/admin/goods/dao/AdminGoodsDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/admin/goods/service/AdminGoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/admin/goods/service/AdminGoodsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/admin/member/controller/AdminMemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/admin/member/controller/AdminMemberControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/admin/member/dao/AdminMemberDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/admin/member/dao/AdminMemberDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/admin/member/service/AdminMemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/admin/member/service/AdminMemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/admin/order/controller/AdminOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/admin/order/controller/AdminOrderControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/admin/order/dao/AdminOrderDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/admin/order/dao/AdminOrderDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/admin/order/service/AdminOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/admin/order/service/AdminOrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/mypage/controller/MyPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/mypage/controller/MyPageControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/mypage/dao/MyPageDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/mypage/dao/MyPageDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/mypage/service/MyPageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/mypage/service/MyPageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/mypage/vo/MyPageVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/order/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/order/controller/OrderControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/order/dao/OrderDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/order/dao/OrderDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/order/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/order/service/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/order/vo/OrderVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mappers/admin_goods.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mappers/admin_member.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mappers/admin_order.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mappers/mypage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mappers/order.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/tiles/tiles_admin_goods.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/tiles/tiles_admin_member.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/tiles/tiles_admin_order.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/tiles/tiles_cart.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/tiles/tiles_mypage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/tiles/tiles_order.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/goods/addNewGoodsForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/goods/addNewGoodsImageForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/goods/adminGoodsMain.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/goods/modifyGoodsForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/member/adminMemberMain.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/member/memberDetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/order/adminOrderDetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/order/adminOrderMain.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cart/myCartList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mypage/listMyOrderHistory.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mypage/myDetailInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mypage/myOrderDetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mypage/myPageMain.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/order/orderGoodsForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/order/orderResult.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/order/payToOrderGoods.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/common/base/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/common/base/BaseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/goods/dao/GoodsDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/goods/dao/GoodsDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/goods/dao/GoodsDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/goods/dao/GoodsDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/goods/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/goods/service/GoodsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/goods/service/GoodsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/goods/service/GoodsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/goods/vo/GoodsVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/goods/vo/GoodsVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/goods/vo/ImageFileVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/goods/vo/ImageFileVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/interceptor/ViewNameInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/interceptor/ViewNameInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/main/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/main/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/member/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/member/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/cart/service/CartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/cart/service/CartServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/member/controller/MemberControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/member/controller/MemberControllerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/member/dao/MemberDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/member/dao/MemberDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/member/dao/MemberDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/member/dao/MemberDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/member/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/member/service/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/member/service/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/member/service/MemberServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/member/vo/MemberVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/green/bookshop3/member/vo/MemberVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mappers/member.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mappers/member.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/models/modelConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/models/modelConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/jdbc/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/jdbc/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/mybatis-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/mybatis-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +84,27 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
-        <option value="Jsp File" />
         <option value="spring-beans.schema" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;hayaboy&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="9b5c3db6-6c90-48f6-8d44-330332a3bc23" />
+        <option name="url" value="https://github.com/hayaboy/bookshop3.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -113,6 +148,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "CodeWithMe",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -124,9 +160,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\bookshop3\src\main\resources\mybatis\mappers" />
-      <recent name="C:\bookshop3\src\main\java\com\green\bookshop3" />
       <recent name="C:\bookshop3\src\main\resources\tiles" />
       <recent name="C:\bookshop3\src\main\webapp\WEB-INF\views" />
+      <recent name="C:\bookshop3\src\main\java\com\green\bookshop3" />
       <recent name="C:\bookshop3\src\main\webapp\resources\image" />
     </key>
   </component>
@@ -241,11 +277,40 @@
       <workItem from="1712622529967" duration="984000" />
       <workItem from="1712627776911" duration="12205000" />
       <workItem from="1712809343957" duration="15000" />
-      <workItem from="1712812936064" duration="11613000" />
+      <workItem from="1712812936064" duration="12659000" />
+      <workItem from="1712881260756" duration="14277000" />
     </task>
+    <task id="LOCAL-00001" summary="4_11">
+      <option name="closed" value="true" />
+      <created>1712825733954</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712825733954</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="4_11" />
+    <option name="LAST_COMMIT_MESSAGE" value="4_11" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/green/bookshop3/order/controller/OrderControllerImpl.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
